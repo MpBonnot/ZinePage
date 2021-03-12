@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(221deg, #d1f318, #0c9d0c, #095409);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+}
+
+h1 {
+    position: absolute;
+  top: 10%;
+  width: 30%;
+  left: 60%;
+  text-align: left;
+  font-family: futura;
+    font-size:4rem;
+    color: white;
+    line-height: 1.2;
+    position: relative;
+    animation: fadeIn 3s infinite;
+}
+
+h2 {
+    position: absolute;
+  top: 20%;
+  width: 30%;
+  left: 60%;
+  text-align: left;
+  font-family: futura;
+    font-size:2rem;
+    color: white;
+    line-height: 1.2;
+}
+
+h3 {
+    position: absolute;
+  top: 30%;
+  width: 30%;
+  left: 60%;
+  text-align: left;
+  font-family: arial;
+    font-size:1rem;
+    color: white;
+    line-height: 1.2;
+    
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+
+  @-webkit-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 84%}
+    50%{background-position:100% 17%}
+    100%{background-position:0% 84%}
+}
